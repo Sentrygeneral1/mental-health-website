@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support page for mental health advocacy, providing resources, contacts, and guidance for receiving help.">
+    <title>Support Page - Mental Health Advocacy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #6a8caf;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .tiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .tile {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        .tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .tile img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .tile-content {
+            padding: 15px;
+        }
+        .tile-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #4a6c8c;
+        }
+        .tile-content p {
+            margin: 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        footer {
+            background: #4a6c8c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px 20px;
+            background: #6a8caf;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .back-home:hover {
+            background: #4a6c8c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Support for Mental Health</h1>
+        <p>Find the help you need to improve your mental well-being.</p>
+    </header>
+    <div class="container">
+        <a href="mentalhealth website.html" class="back-home">&#8592; Back to Home</a>
+        <div class="tiles">
+            <div class="tile" onclick="location.href='https://www.mentalhealth.gov';">
+                <img src="social.jfif" alt="Community Support">
+                <div class="tile-content">
+                    <h3>Community Support</h3>
+                    <p>Connect with local groups and organizations dedicated to mental health.</p>
+                </div>
+            </div>
+            <div class="tile" onclick="location.href='https://www.nami.org';">
+                <img src="psychologist.jpg" alt="Professional Help">
+                <div class="tile-content">
+                    <h3>Professional Help</h3>
+                    <p>Learn how to find therapists, counselors, and psychiatrists near you.</p>
+                </div>
+            </div>
+            <div class="tile" onclick="location.href='https://www.crisistextline.org';">
+                <img src="hotline.jpg" alt="Crisis Hotlines">
+                <div class="tile-content">
+                    <h3>Crisis Hotlines</h3>
+                    <p>Access immediate support through trusted crisis hotlines.</p>
+                </div>
+            </div>
+            <div class="tile" onclick="location.href='https://www.who.int/mental_health';">
+                <img src="globe.jpg" alt="Global Resources">
+                <div class="tile-content">
+                    <h3>Global Resources</h3>
+                    <p>Explore worldwide mental health resources and initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mental Health Advocacy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
